@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciel Atthelion - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Halo aku Ciel, sebelumnya saya berterimakasih telah berkunjung ke portofolio ini, saya masih siswa biasa sih tapi saya siap membantu anda, silahkan anda melihat-lihat isi portofolio saya.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home"><i class="fas fa-home"></i> Homepage</a></li>
+            <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+            <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home" class="panel">
+        <div class="profile">
+            <img src="Profile.png" alt="Ciel Atthelion">
+            <h2>Ciel Atthelion</h2>
+            <p>Web Developer | Software Engineer | IT Specialist</p>
+        </div>
+    </section>
+    <section id="experience" class="panel">
+        <h2><i class="fas fa-briefcase"></i> Experience</h2>
+        <p>Pengalaman saya meliputi berbagai proyek di bidang IT, termasuk pengembangan sistem administrasi dan website travel. Saya memiliki kemampuan dalam berbagai teknologi dan selalu siap untuk mempelajari hal-hal baru.</p>
+    </section>
+    <section id="projects" class="panel">
+        <h2><i class="fas fa-project-diagram"></i> My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="Puzzle.png" alt="Project 1">
+                <h3>Project Game Puzzle</h3>
+                <p>Saya pernah membuat game secara iseng yaitu water short puzzle game dengan hanya menggunakan html, css, dan javascript.</p>
+            </div>
+            <div class="project-card">
+                <img src="Travel.png" alt="Project 2">
+                <h3>Project Travelia Web Travel Wonosobo</h3>
+                <p>Saya membuat project ini dengan kelompok saya, mungkin belum terlalu sempurna namun saya sudah berpengalaman.</p>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="panel">
+        <h2><i class="fas fa-code"></i> My Skills</h2>
+        <div class="skill-bar">
+            <p>HTML</p>
+            <div class="progress">
+                <div class="progress-done" style="width: 78%;"></div>
+            </div>
+        </div>
+        <div class="skill-bar">
+            <p>CSS</p>
+            <div class="progress">
+                <div class="progress-done" style="width: 66%;"></div>
+            </div>
+        </div>
+        <div class="skill-bar">
+            <p>JAVA</p>
+            <div class="progress">
+                <div class="progress-done" style="width: 42%;"></div>
+            </div>
+        </div>
+        <div class="skill-bar">
+            <p>IDE-IDE</p>
+            <div class="progress">
+                <div class="progress-done" style="width: 52%;"></div>
+            </div>
+        </div>
+        <!-- Add more skills as needed -->
+    </section>
+    <section id="testimonials" class="panel">
+        <h2><i class="fas fa-comment-alt"></i> Testimonials</h2>
+        <div class="testimonial">
+            <p>"Ciel adalah developer yang hebat! Sangat mudah diajak kerja sama dan hasil kerjanya luar biasa."</p>
+            <h4>- Firman Rahmat Dani</h4>
+        </div>
+        <div class="testimonial">
+            <p>"Saya sangat merekomendasikan Ciel untuk proyek IT, dia sangat profesional dan cepat!"</p>
+            <h4>-NadNad </h4>
+        </div>
+    </section>
+    <section id="contact" class="panel">
+        <h2><i class="fas fa-envelope"></i> Contact Me</h2>
+        <div class="contact-info">
+            <p><strong>Nama Perusahaan:</strong>Ciell Suka HTML</p>
+            <p><strong>Email:</strong> zkaynata@gmail.com</p>
+            <p><strong>Phone:</strong> +62 812-2840-3402</p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sky-ka-a01977327/" target="_blank">linkedin.com/in/ciel-atthelion</a></p>
+        </div>
+        <div class="contact-form">
+            <h3>Hire Me</h3>
+            <form action="send_email.php" method="POST">
+                <label for="name">Nama</label>
+                <input type="text" id="name" name="name" placeholder="Nama Anda" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email Anda" required>
+                
+                <label for="message">Pesan</label>
+                <textarea id="message" name="message" placeholder="Pesan atau permintaan Anda" rows="5" required></textarea>
+                
+                <button type="submit" class="btn-hire-me">Hire Me</button>
+            </form>
+            
+        </div>
+    </section>
+    <footer>
+        <p>Connect with me:</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/ciel.atthelion" class="social-icon" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/ciel_wastaken" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UC_PmUYhHrz-v-IiWXzWTIBA" class="social-icon" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.linkedin.com/in/sky-ka-a01977327/" class="social-icon" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>&copy; 2024 Ciel Atthelion</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
